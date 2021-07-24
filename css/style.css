@@ -9,68 +9,71 @@ html{
     scroll-behavior: smooth;
 }
 
-.imageLogo{
-    height: 20vh;
-    width: 10vw;
-    display: flex;
-    justify-content: initial;
+.imagemlat{
+    height: 300px;
+    width: 100px;
     align-items: center;
+    margin-bottom: 25px;
+
+}
+.imagemlatpromo{
+    height: 50vh;
+    width: 50vw;
+    color: white;
+    text-align: center;
 }
 
-.imagemlat{
-    height: 30vh;
-    width: 30vw;
-    /* display: flex; */
-    /* justify-content: space-around; */
-    /* align-items: right; */
-}
-/* estamos criando classes com esses pontos */
 
 .section-container{
     height: 100vh;
     width: 100%;
     display: flex;
-    justify-content: right;
+    justify-content:space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
+
 
 .section-container-logo{
     height: 12vh;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: center; ;
     align-items: center;
 }
 
+.logobike{
+    height: 12vh;
+}
+
 .background-section2{  
-   /* background-image: url(../assests/caneca_azul.png); */
-   background-color: darkorchid; 
-   /* para deixar a imagem no fundo e poder rolar por ela com elementos html */
+   background-image: url(../assests/fundo.jpg);
+   background-color: black; 
    background-attachment: fixed;
    background-repeat: no-repeat;
    background-size: cover;
+   align-items: center;
 }
 .background-section1{
-    /* background-image: url(../assests/caneca_azul.png); */
-    background-color:chocolate;    
+    background-color: rgb(114, 45, 59);    
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .card-container-logo{
-    background: cornsilk;
-    /* border-radius: 12px; */
+    background: rgb(247, 244, 244);
+    border-radius: 12px;
     padding: 5px;
     max-width: 200px;
     display: grid;
 }
 .card-container{
-    background: darkorchid;
     border-radius: 25px;
     padding: 25px;
-    max-width: 450px;
-    /* display: grid; */
+    max-width: 200px;
+    display: grid;
+    color: white;
 }
 
 input{
@@ -78,21 +81,27 @@ input{
     height: 30px;
     margin-bottom: 10px;
     text-align: left;
-    /* border-radius: 12px; */
+    border-radius: 12px;
     background: white;
-    color: black;
+    color:black;
+    font-family: 'Times New Roman';
 }
 
 form{
-    /* display: grid; */
-    justify-content: right;
-    align-items: right;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
 footer{
-    height: 150px;
-    padding: 25px;
+    height: 20px;
+    padding: 20px;
     text-align: center;
-    background-color: chocolate; 
+    background-color: rgb(114, 45, 59);    
     color: black;
+}
+
+.logo{
+    height: 15px;
+    text-align: center;
 }
