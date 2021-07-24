@@ -4,10 +4,10 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
     let nome = document.getElementById('nome').value;
     let email = document.getElementById('email').value;
-    let pesquisa = document.getElementById('pesquisa').value;
+    // let pesquisa = document.getElementById('pesquisa').value;
     let data = {
         nome,
-        pesquisa,
+        // pesquisa,
         email,
     }
     let convertData = JSON.stringify(data);
